@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Se agrega un metadato para agregar el nombre del autor -->
+    <meta name="author" content="Diana Mariela">
+
+    <!-- Se agrega un link para establecer conexion con iconos de google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+    <!-- Se agrega un icono que aparecera al lado del titulo de la pagina -->
+    <link rel="icon" href="./images/Gio (2).ico" type="image/x-icon">
+    <title>Gatitos</title>
+
+    <!-- Se establece una conexión con CSS -->
+     <link rel="stylesheet"  href="index.css">
+</head>
+
+<body>
+    <header>
+        <h1>Los gatitos</h1>
+        <p><img src="https://i.pinimg.com/736x/0d/97/9a/0d979a76fa450a0e430e2588995a900b.jpg" alt="Huellas de gatitos"
+                width="95px">Un rinconcito para el amor gatuno</p>
+
+        <!-- Se agrega un navbar -->
+        <nav>
+            <ul>
+                <li><a href="#"><span class="material-symbols-outlined">
+                            home_app_logo
+                        </span> Inicio</a></li>
+                <li><a href="#"><span class="material-symbols-outlined">
+                            quick_reference_all
+                        </span> Para saber más</a></li>
+                <li><a href="#"><span class="material-symbols-outlined">
+                            lightbulb_2
+                        </span> Datos curiosos</a></li>
+                <li><a href="#"><span class="material-symbols-outlined">
+                            perm_phone_msg
+                        </span> Contáctanos</a></li>
+                <li><a href="#"><span class="material-symbols-outlined">
+                            pets
+                        </span> Adopta un gatito</a></li>
+                <li><a href="#"><span class="material-symbols-outlined">
+                            pin_drop
+                        </span> Sobre nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <!-- Se crea un carrusel de imagenes -->
+        <div id="Carousel">
+            <div class="carouselGato">
+                <div class="carousel-item">
+                    <img src="./images/british.jpg" alt="primergato">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/ciame.jpg" alt="segundogato">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/ragdoll.jpg" alt="tercergato">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon" aria-hidden="true">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon" aria-hidden="true"> Next</span>
+            </button>
+        </div>
+    </main>
+
+    <!-- Se crea una section para dividir tarjetas de representacion de gatos -->
+    <section id="razas">
+        <h2>Los gatos y sus especies</h2>
+        <p>Existen muchas especies de gatos, a continuación se mostrarán algunas de las más destacadas</p>
+        <ul>
+            <li><img src="./images/ciame.jpg" alt="Ciamés" width="250px" title="Gato Ciamés">
+                <p>Gato Ciamés</p>
+            </li>
+            <li><img src="./images/british.jpg" alt="Britanico" width="250px" title="Gato Britanico">
+                <p>Gato Britanico</p>
+            </li>
+            <li><img src="./images/ragdoll.jpg" alt="ragdoll" width="250px" title="Gato ragdoll">
+                <p>Gato ragdoll</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Se agrega etiqueta para dialogos -->
+     <dialog> ¿Sabias que? ...</dialog>
+
+    <!-- Se crea un apartado para una seccion que da introducción a un formulario -->
+    <fieldset id="contacto">
+        <h2>Contactanos</h2>
+        <p>Registra tus datos para formar parte de la familia Gatuna</p>
+        <!-- Inicia formulario -->
+        <form>
+            <label for="nombre">Nombre completo: </label>
+            <input type="text" id="nombre" placeholder="Introduce tu nombre completo" required>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" placeholder="ejemplo@correo.com" required>
+            <label for="nombre">Edad </label>
+            <select id="asunto" required>
+                <option>Mayor a 40</option>
+                <option>30-40</option>
+                <option>20-30</option>
+                <option>20-15</option>
+            </select>
+            <label for="text">Nacionalidad</label>
+            <select id="asunto" required>
+                <option>Mexicana (o)</option>
+                <option>Extranjera (o)</option>
+            </select>
+            <legend>Género</legend>
+            <!-- Se crea una seccion de radio botones -->
+            <label for="genero-masculino">Masculino</label>
+            <input type="radio" name="genero" id="genero-masculino">
+
+            <label for="genero-femenino">Femenino</label>
+            <input type="radio" name="genero" id="genero-femenino">
+
+            <label for="genero-otro">Otro</label>
+            <input type="radio" name="genero" id="genero-otro">
+
+            <!-- Se crea un cuadro de texto libre -->
+            <br>
+            <label for="mensaje">¿Porque quieres formar parte de la familiar gatuna?</label>
+            <br>
+            <textarea id="mensaje" rows="15" placeholder="Escribe tu respuesta aquí..." required>
+                </textarea>
+            <br>
+            <button class="submit">Submit</button>
+    </fieldset>
+
+    <br>
+    <!-- Se crea un mapa para la localizacion de gatitos -->
+    <div class="nosotros">
+        <h2>Sobre nosotros</h2>
+        <p>Somos una asociación que cuida la vida minina y brinda hogares a miles de ellos, creada en 2024.
+            <br><i>Nuestros valores:</i>Amor, Confianza, Respeto y Seguridad.
+            <br><i>Nuestra visión:</i> Brindar hogar a nuestros pequeños amiguitos peludos de todo el mundo.
+            <br><i>Nuestra misión:</i> Mejorar la calidad de vida de los animalitos peludos
+        </p>
+        <h2>Contactanos en:</h2>
+        <p>+52 55555555</p>
+        <h3>Localizanos en:</h3>
+
+        <!-- Se agrega un mapa -->
+        <div class="google-maps">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29429.965756393944!2d-102.60521364442037!3d22.77481607824114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86824e8e11d7d603%3A0x4196a8a29dca4635!2sZacatecas%20Centro%2C%20Zacatecas%2C%20Zac.!5e0!3m2!1ses-419!2smx!4v1731596116103!5m2!1ses-419!2smx"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+    <!-- Se agrega un footer -->
+    <footer>
+        <p>&copy; 2024 Gatitos. Todos los derechos reservados. Diana</p>
+    </footer>
+</body>
+<!-- 
+<template> – Se utiliza para almacenar contenido que no se muestra directamente en la página. Puede ser usado en JavaScript para crear dinámicamente elementos, lo que optimiza la carga del sitio. -->
+    </html>
