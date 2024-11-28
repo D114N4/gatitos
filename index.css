@@ -1,14 +1,51 @@
 
+/*Se agregan colores primarios para esto se utliza un root*/
+:root{
+--primary-color: #B7F3F3;
+--secundary-color:#000A08;
+}
+
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:auto;
 }
 
 h1{
-    font-size: 70px;
-    padding: 15px;
+    font-size: 80px;
+    padding: 0px 8px 15px 15px ;
     text-align: center;
-    -webkit-text-stroke: 2px rgb(236, 204, 232);
-    color: black;
-    background-image:url(https://image.freepik.com/free-vector/cat-paw-footprint-seamless-pattern_42349-871.jpg);
-    
+    -webkit-text-stroke: 2px rgb(247, 241, 246);
+    color: var(--secundary-color);
+    margin: 0px;
+    background-color: var(--primary-color);
+}
+
+.imagen{
+    margin:0px;
+    padding: 7px 7px 12px 3px;
+    background-color: var(--secundary-color);
+    color: var(--primary-color);
+    font-size: 19px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#imagen{
+    border-radius: 49px;
+    padding: 10px 0px 0 10px;
+} 
+
+.title{
+    text-decoration:aquamarine;
+    color: var(--primary-color);
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    list-style: none;
+}
+
+.material-symbols-outlined{
+    padding: 3px;
 }
