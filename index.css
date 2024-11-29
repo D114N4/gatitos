@@ -74,3 +74,29 @@ nav :hover{
 }
 
 /*carrousel*/
+
+/*Tarjetas*/
+.razas{
+    text-align: center;
+    padding: 60px 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    font-size: 45px;
+}
+
+.oraciones{
+    font-size: 25px;
+    line-height: 80px;
+}
+
+.contenedor-tarjetas{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+height: 600px;
+justify-content: space-around;
+align-items: center;
+gap:30px;
+}
