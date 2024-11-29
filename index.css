@@ -20,32 +20,35 @@ h1{
     background-color: var(--primary-color);
 }
 
-.imagen{
-    margin:0px;
-    padding: 7px 7px 12px 3px;
-    background-color: var(--secundary-color);
-    color: var(--primary-color);
-    font-size: 19px;
-    font-family:'Courier New', Courier, monospace;
-}
-
 #imagen{
     border-radius: 49px;
     padding: 10px 0px 0 10px;
 } 
-
+/*Iconos del menu*/
 .title{
     text-decoration:aquamarine;
     color: var(--primary-color);
 }
 
-.menu{
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    list-style: none;
+.title :hover{
+    color:rgb(10, 117, 64);
 }
 
+/*palabra que acompaña al icono del menu*/
+.menu{
+    background-color: var(--secundary-color);
+    padding: 18px;
+    margin: 0px;
+    font-family:'Courier New', Courier, monospace;
+    font-style: oblique;
+    font-size: 19px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+/*Iconos*/
 .material-symbols-outlined{
     padding: 3px;
 }
+
+/*carrousel*/

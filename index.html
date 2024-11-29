@@ -16,19 +16,19 @@
     <title>Gatitos</title>
 
     <!-- Se establece una conexión con CSS -->
-     <link rel="stylesheet"  href="index.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
     <header>
-        <h1><img  id="imagen"src="https://i.pinimg.com/736x/0d/97/9a/0d979a76fa450a0e430e2588995a900b.jpg" alt="Huellas de gatitos"
-            width="100px"> Los gatitos</h1>
-        
+        <h1><img id="imagen" src="https://i.pinimg.com/736x/0d/97/9a/0d979a76fa450a0e430e2588995a900b.jpg"
+                alt="Huellas de gatitos" width="100px"> Los gatitos</h1>
 
-        <!-- Se agrega un navbar -->
-        <nav class="imagen">
+
+        <!-- Se agrega un navbar que es el mapa de navegación -->
+        <nav>
             <ul class="menu">
-                <li ><a class="title" href="#"><span class="material-symbols-outlined">
+                <li><a class="title" href="#"><span class="material-symbols-outlined">
                             home_app_logo
                         </span> Inicio</a></li>
                 <li><a class="title" href="#"><span class="material-symbols-outlined">
@@ -49,8 +49,10 @@
             </ul>
         </nav>
     </header>
-    <main>
 
+    <!-- Main es para resaltar lo principal de la página -->
+
+    <main>
         <!-- Se crea un carrusel de imagenes -->
         <div id="Carousel">
             <div class="carouselGato">
@@ -91,7 +93,7 @@
     </section>
 
     <!-- Se agrega etiqueta para dialogos -->
-     <dialog> ¿Sabias que? ...</dialog>
+    <dialog> ¿Sabias que? ...</dialog>
 
     <!-- Se crea un apartado para una seccion que da introducción a un formulario -->
     <fieldset id="contacto">
@@ -162,7 +164,11 @@
     <footer>
         <p>&copy; 2024 Gatitos. Todos los derechos reservados. Diana</p>
     </footer>
+
+    <!-- Conexión con js -->
+    <script src="./script.js"></script>
 </body>
 <!-- 
 <template> – Se utiliza para almacenar contenido que no se muestra directamente en la página. Puede ser usado en JavaScript para crear dinámicamente elementos, lo que optimiza la carga del sitio. -->
-    </html>
+
+</html>
