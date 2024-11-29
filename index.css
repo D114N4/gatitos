@@ -1,3 +1,22 @@
+/*Se resetea la configuración básica preestablecida*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Heredando propiedades */
+body{
+    background-color: var(--secundary-color);
+    color:var(--primary-color);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:auto;
+}
+
+footer{
+    background-color:#011d17 ;
+    text-align: center;
+}
 
 /*Se agregan colores primarios para esto se utliza un root*/
 :root{
@@ -5,10 +24,6 @@
 --secundary-color:#000A08;
 }
 
-body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin:auto;
-}
 
 h1{
     font-size: 80px;
@@ -22,33 +37,36 @@ h1{
 
 #imagen{
     border-radius: 49px;
-    padding: 10px 0px 0 10px;
+    padding: 10px 10px 0 10px;
+    width: 130px;
 } 
+
 /*Iconos del menu*/
 .title{
     text-decoration:aquamarine;
     color: var(--primary-color);
+    transition: .3s;
 }
 
-.title :hover{
-    color:rgb(10, 117, 64);
+.material-symbols-outlined {
+    font-size: 29px;
 }
+
 
 /*palabra que acompaña al icono del menu*/
 .menu{
     background-color: var(--secundary-color);
     padding: 18px;
-    margin: 0px;
     font-family:'Courier New', Courier, monospace;
     font-style: oblique;
     font-size: 19px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     list-style: none;
 }
-/*Iconos*/
-.material-symbols-outlined{
-    padding: 3px;
+
+nav :hover{
+    color: rgb(10, 117, 64);
 }
 
 /*carrousel*/
