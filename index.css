@@ -6,6 +6,9 @@
 }
 
 /* Heredando propiedades */
+nav{
+    padding: 15px 0px;
+}
 body{
     background-color: var(--secundary-color);
     color:var(--primary-color);
@@ -51,6 +54,7 @@ h1{
 .material-symbols-outlined {
     font-size: 29px;
 }
+
 
 
 /*palabra que acompaña al icono del menu*/
