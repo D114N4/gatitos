@@ -86,6 +86,7 @@ h2{
     font-size: 45px;
 }
 
+/*Texto despues del titulo de h2*/
 .oraciones{
     font-size: 25px;
     line-height: 80px;
@@ -93,10 +94,33 @@ h2{
 
 .contenedor-tarjetas{
 display: flex;
-flex-wrap: wrap;
-flex-direction: row;
+flex-wrap:wrap;
+flex-direction:row;
 height: 600px;
 justify-content: space-around;
 align-items: center;
 gap:30px;
+}
+
+.card{
+    background-color: #012727;
+    padding: 20px;
+    border-radius: 8px 8px 0 0;
+    transition: opacity 0.3s ease;
+
+}
+
+.imagesCard{
+    width: 280px;
+    height: 200px;
+    border-radius: 0 0 8px 8px;
+} 
+
+.card:hover{
+    background-color: #000A08;
+}
+
+.imagesCard:hover{
+width: 281px;
+height: 201px;
 }
