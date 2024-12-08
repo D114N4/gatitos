@@ -20,9 +20,10 @@ body {
 footer {
     background-color: #010706;
     text-align: center;
-    padding:15px;
+    padding: 15px;
 }
-footer:hover{
+
+footer:hover {
     background-color: rgba(0, 255, 255, 0.219);
 }
 
@@ -151,6 +152,13 @@ h2:hover {
 }
 
 /*Tarjetas*/
+.title{
+    font-size: 55px;
+    border-radius: 45px;
+    padding: 10px 30px;
+    background-color: aqua;
+    color: black;
+}
 .razas {
     text-align: center;
     padding: 60px 0px;
@@ -220,7 +228,7 @@ h2:hover {
     border-radius: 0 0 30px 30px;
 }
 
-.nombre:hover{
+.nombre:hover {
     background-color: aqua;
     color: black;
 }
@@ -300,26 +308,26 @@ input:hover {
 }
 
 /*Sobre Nosotros*/
-.nosotros{
+.nosotros {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 45px;
 }
 
-.historia{
+.historia {
     text-align: start;
     font-size: 25px;
-    margin: 15px 85px ;
+    margin: 15px 85px;
     line-height: 45px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.numero{
+.numero {
     text-align: center;
     font-size: 28px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.google-maps{
+.google-maps {
     text-align: center;
 }
