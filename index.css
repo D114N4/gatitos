@@ -43,6 +43,7 @@ h1 {
     margin: 0px;
     background-color: aqua;
     border-color: aqua;
+    position:static;
 }
 
 #imagen {
@@ -81,6 +82,17 @@ nav :hover {
 }
 
 
+.question img{
+    width: 100px;
+    border-radius: 90px;
+    display: flex;
+    justify-content: end;
+    margin: 0 1220px;
+    position: fixed;
+    top: 30px;
+    left: 10px;
+    
+}
 
 /*carrousel*/
 .datos-curiosos {
