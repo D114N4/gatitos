@@ -202,13 +202,13 @@
 
     <!-- Se crea un apartado para una seccion que da introducción a un formulario -->
 
-    <fieldset id="contacto">
+    <fieldset class="contacto" id="contacto">
         <h2>Contactanos</h2>
         <p>Registra tus datos para formar parte de la familia Gatuna</p>
         <!-- Inicia formulario -->
         <form>
-            <label for="nombre">Nombre completo: </label>
-            <input type="text" id="nombre" placeholder="Introduce tu nombre completo" required>
+            <label class="nombreUsuario" for="nombre">Nombre completo: </label>
+            <input class="espacioUsuario" type="text" id="nombre" placeholder="Introduce tu nombre completo" required>
             <label for="email">Correo electrónico:</label>
             <input type="email" id="email" placeholder="ejemplo@correo.com" required>
             <label for="nombre">Edad </label>
@@ -223,16 +223,16 @@
                 <option>Mexicana (o)</option>
                 <option>Extranjera (o)</option>
             </select>
-            <legend>Género</legend>
+            <legend class="genero">Género</legend>
             <!-- Se crea una seccion de radio botones -->
-            <label for="genero-masculino">Masculino</label>
-            <input type="radio" name="genero" id="genero-masculino">
+            <label class="radioname" for="genero-masculino">Masculino</label>
+            <input class="radio" type="radio" name="genero" id="genero-masculino">
 
-            <label for="genero-femenino">Femenino</label>
-            <input type="radio" name="genero" id="genero-femenino">
+            <label class="radioname" for="genero-femenino">Femenino</label>
+            <input class="radio" type="radio" name="genero" id="genero-femenino">
 
-            <label for="genero-otro">Otro</label>
-            <input type="radio" name="genero" id="genero-otro">
+            <label class="radioname" for="genero-otro">Otro</label>
+            <input class="radio" type="radio" name="genero" id="genero-otro">
 
             <!-- Se crea un cuadro de texto libre -->
             <br>

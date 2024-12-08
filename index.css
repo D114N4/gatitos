@@ -18,14 +18,14 @@ body {
 }
 
 footer {
-    background-color: #011d17;
+    background-color: #010706;
     text-align: center;
 }
 
 /*Se agregan colores primarios para esto se utliza un root*/
 :root {
     --primary-color: #B7F3F3;
-    --secundary-color: #000A08;
+    --secundary-color: black;
 }
 
 
@@ -37,6 +37,7 @@ h1 {
     color: var(--secundary-color);
     margin: 0px;
     background-color: var(--primary-color);
+    border-radius: 35px 0px 35px 0px;
 }
 
 #imagen {
@@ -87,7 +88,7 @@ nav :hover {
 }
 
 .datos-curiosos:hover {
-    background-color: #000000;
+    background-color: #0975635e;
 }
 
 #datos-curiosos {
@@ -123,8 +124,8 @@ h2:hover {
 
 .gato-item img {
     border-radius: 15px;
-    height: 650px;
-    width: 990px;
+    height: 450px;
+    width: 590px;
 }
 
 .razaGato {
@@ -166,8 +167,8 @@ h2:hover {
 }
 
 .razas-imagen {
-    width: 550px;
-    height: 450px;
+    width: 350px;
+    height: 250px;
     border-radius: 10px;
 }
 
@@ -195,10 +196,15 @@ h2:hover {
 .gatos-item img {
     border-radius: 30px 30px 0 0;
     text-align: center;
-    width: 550px;
-    height: 500px;
+    width: 450px;
+    height: 300px;
     justify-content: space-between;
     align-items: flex-start;
+}
+
+.gatos-item img:hover {
+    width: 460px;
+    height: 310px;
 }
 
 .nombre {
@@ -207,4 +213,83 @@ h2:hover {
     color: var(--secundary-color);
     background-color: var(--primary-color);
     text-align: center;
+    border-radius: 0 0 30px 30px;
+}
+
+.nombre:hover{
+    background-color: aqua;
+    color: black;
+}
+
+/*FORMULARIO*/
+.contacto {
+    display: block;
+    text-align: center;
+    background-color: #011d17;
+    margin: 35px;
+}
+
+label {
+    line-height: 45px;
+    font-size: 25px;
+    display: block;
+}
+
+label:hover {
+    color: aqua;
+}
+
+input {
+    width: 550px;
+    height: 35px;
+    padding: 5px 50px;
+}
+
+input:hover {
+    border-color: aqua;
+}
+
+#asunto {
+    width: 230px;
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+}
+
+.genero {
+    line-height: 65px;
+    font-size: 25px;
+    display: block;
+}
+
+.radio {
+    width: 30px;
+    text-align: center;
+    align-items: center;
+    color: aqua;
+}
+
+.radioname {
+    font-size: 20px;
+}
+
+#mensaje {
+    width: 850px;
+    margin: 0px 150px;
+}
+
+.submit {
+    width: 180px;
+    height: 35px;
+    margin: 0px 50px 10px 50px;
+    text-align: center;
+    font-size: 20px;
+    color: var(--secundary-color);
+    background-color: var(--primary-color);
+    border-radius: 45px;
+}
+
+.submit:hover {
+    background-color: var(--secundary-color);
+    color: aliceblue;
 }
