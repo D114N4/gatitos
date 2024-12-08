@@ -20,6 +20,10 @@ body {
 footer {
     background-color: #010706;
     text-align: center;
+    padding:15px;
+}
+footer:hover{
+    background-color: rgba(0, 255, 255, 0.219);
 }
 
 /*Se agregan colores primarios para esto se utliza un root*/
@@ -36,8 +40,8 @@ h1 {
     -webkit-text-stroke: 2px rgb(247, 241, 246);
     color: var(--secundary-color);
     margin: 0px;
-    background-color: var(--primary-color);
-    border-radius: 35px 0px 35px 0px;
+    background-color: aqua;
+    border-color: aqua;
 }
 
 #imagen {
@@ -292,4 +296,30 @@ input:hover {
 .submit:hover {
     background-color: var(--secundary-color);
     color: aliceblue;
+    border-color: aqua;
+}
+
+/*Sobre Nosotros*/
+.nosotros{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+}
+
+.historia{
+    text-align: start;
+    font-size: 25px;
+    margin: 15px 85px ;
+    line-height: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.numero{
+    text-align: center;
+    font-size: 28px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.google-maps{
+    text-align: center;
 }
