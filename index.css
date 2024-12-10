@@ -138,7 +138,9 @@ h2:hover {
     text-decoration: none;
     text-align: center;
     border-radius: 15px;
+    position: relative;
 }
+
 
 .gato-item img {
     border-radius: 15px;
@@ -146,13 +148,23 @@ h2:hover {
     width: 590px;
 }
 
-.razaGato {
+.sombra{
+    position:absolute;
+    top:0;
+    left: 0;
+    background-color: #011d1767;
+    width: 590px;
+    height: 450px;
     display: flex;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bolder;
-    color: aqua;
-    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    transition: opacity .3s;
+    opacity: 0;
+}
+
+.sombra:hover{
+    opacity: 1;
 }
 
 .datoCurioso {
@@ -160,8 +172,9 @@ h2:hover {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
-    color: aqua;
+    color: rgb(215, 233, 233);
     font-size: 25px;
+    background-color: #011d1777;
 }
 
 /*Tarjetas*/
