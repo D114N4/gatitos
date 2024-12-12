@@ -88,6 +88,7 @@ footer:hover {
     top: 5.2rem;
     z-index: 101;
     width: 100%;
+    box-shadow: 0 1px 3px rgba(201, 220, 221, 0.1);
 
 }
 
@@ -372,4 +373,24 @@ input:hover {
 
 .google-maps {
     text-align: center;
+}
+
+
+
+/*Usando media queries*/
+@media screen and (max-width: 930px){
+    .nav{
+        background-color: rgb(231, 173, 13);
+        color: rgb(15, 15, 1);
+        align-items: center;
+        font-size: xx-large;
+        display: flex;
+    }
+
+    #imagen {
+        border-radius: 2.6rem;
+        padding: .2rem .2rem 0 .2rem;
+        width: 2.45rem;
+    }
+    
 }
