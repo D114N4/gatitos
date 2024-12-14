@@ -36,7 +36,7 @@
                 <li><a href="./formulario.html"><span class="material-symbols-outlined">
                             perm_phone_msg
                         </span> Adopta un gatito</a></li>
-                <li><a href="#"><span class="material-symbols-outlined">
+                <li><a href="./sobreNosotros.html"><span class="material-symbols-outlined">
                             pin_drop
                         </span> Sobre nosotros</a></li>
             </ul>
@@ -45,7 +45,6 @@
     <main>
         <!-- Main es para resaltar lo principal de la página -->
         <!-- Se crea un carrusel de imagenes -->
-
         <section class="datos-curiosos" id="datos-curiosos">
             <h2>¿Sabías que?</h2>
             <div class="lista-carrusel">
@@ -131,141 +130,6 @@
             </div>
         </section>
     </main>
-
-    <!-- Se crea una section para dividir tarjetas de representacion de gatos -->
-
-    <section class="razas" id="razas">
-        <div class="razas-contenido">
-            <h1 class="titulo2">Los gatos y sus especies</h1>
-            <p class="subtitulo">Existen muchas especies de gatos, aquí te mostrámos de las más relevantes</p>
-        </div>
-    </section>
-    <section class="razasGatos" id="razasGatos">
-        <div class="raza-lista">
-            <a href="#" class="gatos-item">
-                <figure>
-                    <img src="./images/ratio.jpg" alt="razasGatos">
-                    <figcaption class="nombre">Gato Ratio</figcaption>
-                </figure>
-            </a>
-            <a href="#" class="gatos-item">
-                <figure>
-                    <img class="gato-imagen" src="./images/peterbald.jpeg" alt="Imagendelgato">
-                    <figcaption class="nombre">Gato Peterbald</figcaption>
-                </figure>
-            </a>
-            <a href="#" class="gatos-item">
-                <figure>
-                    <img class="gato-imagen" src="./images/noruega.jpg" alt="Imagendelgato">
-                    <figcaption class="nombre">Gato Noruega</figcaption>
-                </figure>
-            </a>
-            <a href="#" class="gatos-item">
-                <figure>
-                    <img class="gato-imagen" src="./images/kurilian.jpg" alt="Imagendelgato">
-                    <figcaption class="nombre">Gato Kurilian Bobtail</figcaption>
-                </figure>
-            </a>
-            <a href="#" class="gatos-item">
-                <figure>
-                    <img class="gato-imagen" src="./images/high.jpg" alt="Imagendelgato">
-                    <figcaption class="nombre">Gato Highlander</figcaption>
-                </figure>
-            </a>
-            <a href="#" class="gatos-item">
-                <figure>
-                    <img class="gato-imagen" src="./images/ciame.jpg" alt="Imagendelgato">
-                    <figcaption class="nombre">Gato Siames</figcaption>
-                </figure>
-            </a>
-            <a href="#" class="gatos-item">
-                <figure>
-                    <img class="gato-imagen" src="./images/abisinio.jpg" alt="Imagendelgato">
-                    <figcaption class="nombre">Gato Abisinio</figcaption>
-                </figure>
-            </a>
-            <a href="#" class="gatos-item">
-                <figure>
-                    <img class="gato-imagen" src="./images/Gato-Toyger.jpg" alt="Imagendelgato">
-                    <figcaption class="nombre">Gato Toyger</figcaption>
-                </figure>
-            </a>
-        </div>
-    </section>
-
-    <!-- Se agrega etiqueta para dialogos -->
-    <div class="question">
-        <img class="question" src="./images/pregunta.jpg" alt="preguntame">
-        <p></p>
-    </div>
-
-    <!-- Se crea un apartado para una seccion que da introducción a un formulario -->
-
-    <fieldset class="contacto" id="contacto">
-        <h2>Contactanos</h2>
-        <p>Registra tus datos para formar parte de la familia Gatuna</p>
-        <!-- Inicia formulario -->
-        <form>
-            <label class="nombreUsuario" for="nombre">Nombre completo: </label>
-            <input class="espacioUsuario" type="text" id="nombre" placeholder="Introduce tu nombre completo" required>
-            <label for="email">Correo electrónico:</label>
-            <input type="email" id="email" placeholder="ejemplo@correo.com" required>
-            <label for="nombre">Edad </label>
-            <select id="asunto" required>
-                <option>Mayor a 40</option>
-                <option>30-40</option>
-                <option>20-30</option>
-                <option>20-15</option>
-            </select>
-            <label for="text">Nacionalidad</label>
-            <select id="asunto" required>
-                <option>Mexicana (o)</option>
-                <option>Extranjera (o)</option>
-            </select>
-            <legend class="genero">Género</legend>
-            <!-- Se crea una seccion de radio botones -->
-            <label class="radioname" for="genero-masculino">Masculino</label>
-            <input class="radio" type="radio" name="genero" id="genero-masculino">
-
-            <label class="radioname" for="genero-femenino">Femenino</label>
-            <input class="radio" type="radio" name="genero" id="genero-femenino">
-
-            <label class="radioname" for="genero-otro">Otro</label>
-            <input class="radio" type="radio" name="genero" id="genero-otro">
-
-            <!-- Se crea un cuadro de texto libre -->
-            <br>
-            <label for="mensaje">¿Porque quieres formar parte de la familiar gatuna?</label>
-            <br>
-            <textarea id="mensaje" rows="15" placeholder="Escribe tu respuesta aquí..." required>
-                </textarea>
-            <br>
-            <button class="submit">Submit</button>
-    </fieldset>
-
-    <br>
-    <!-- Se crea un mapa para la localizacion de gatitos -->
-    <div class="nosotros">
-        <h2 class="nosotros">Sobre nosotros</h2>
-        <p class="historia">Somos una asociación que cuida la vida minina y brinda hogares a miles de ellos, creada
-            en
-            2024.
-            <br><i>Nuestros valores:</i>Amor, Confianza, Respeto y Seguridad.
-            <br><i>Nuestra visión:</i> Brindar hogar a nuestros pequeños amiguitos peludos de todo el mundo.
-            <br><i>Nuestra misión:</i> Mejorar la calidad de vida de los animalitos peludos.
-        </p>
-        <h2 class="nosotros">Contactanos en:</h2>
-        <p class="numero">+52 0001GATOS</p>
-        <h2 class="nosotros">Localizanos en:</h3>
-
-            <!-- Se agrega un mapa -->
-            <div class="google-maps">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29429.965756393944!2d-102.60521364442037!3d22.77481607824114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86824e8e11d7d603%3A0x4196a8a29dca4635!2sZacatecas%20Centro%2C%20Zacatecas%2C%20Zac.!5e0!3m2!1ses-419!2smx!4v1731596116103!5m2!1ses-419!2smx"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-    </div>
 
     <!-- Se agrega un footer -->
     <footer>
