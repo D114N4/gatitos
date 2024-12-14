@@ -30,7 +30,7 @@ body {
 }
 
 /*-----------------------------------------LOGOTIPO Y NAVBAR---------------------------------------------*/
- /*Logotipo Imagen*/
+/*Logotipo Imagen*/
 .iconoLogotipo {
     border-radius: 5rem;
     padding: .2rem .2rem 0 .1rem;
@@ -55,7 +55,7 @@ body {
 .material-symbols-outlined {
     font-size: 1.8rem;
     color: #f7f7f7;
-    
+
 }
 
 /* Palabra que acompaña al icono del menu*/
@@ -88,14 +88,14 @@ body {
     align-items: center;
 }
 
-.material-symbols-outlined:hover{
-    color:#300110;
+.material-symbols-outlined:hover {
+    color: #300110;
 }
 
 
-.nav-menu li a:hover{
-    color:#300110;
-    text-decoration-line:underline;
+.nav-menu li a:hover {
+    color: #300110;
+    text-decoration-line: underline;
 }
 
 /*------------------------------------------PREGUNTA ALEATORIA--------------------------------*/
@@ -113,9 +113,10 @@ body {
     box-shadow: 0 0.2rem 0.8rem rgb (0, 0, 0, rgba(0, 255, 255, 0.219));
 }
 
-.video{
-    margin:2rem 15rem;
+.video {
+    margin: 2rem 15rem;
 }
+
 /*--------------------------------SECCION DE CARROUSEL---------------------------------------------------*/
 .datos-curiosos {
     padding: 1rem 1rem;
@@ -123,7 +124,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 2.5rem;
     margin: 1rem 1.5rem 1.5rem 1.5rem;
-    
+
 }
 
 .datos-curiosos:hover {
@@ -139,11 +140,11 @@ h2 {
     color: aqua;
     font-size: 2.5rem;
     margin: 1rem;
-    text-shadow: 
-    -1px -1px 0px black,  
-    1px -1px 0px black,  
-    -1px 1px 0px black,  
-    1px 1px 0px black;
+    text-shadow:
+        -1px -1px 0px black,
+        1px -1px 0px black,
+        -1px 1px 0px black,
+        1px 1px 0px black;
 }
 
 h2:hover {
@@ -207,7 +208,7 @@ h2:hover {
 
 
 /*------------------------------------------FOOTER---------------------------------------------------*/
-footer{
+footer {
     background-color: var(--secundary-color);
     color: var(--primary-color);
     text-align: center;
@@ -216,7 +217,7 @@ footer{
     font-size: 1.5rem;
 }
 
-footer:hover{
+footer:hover {
     background-color: aqua;
     color: #000000;
 }
@@ -224,20 +225,157 @@ footer:hover{
 
 /*---------------------------------------------------------MEDIAQUERIES-----------------------------------------*/
 
-/*Navbar*/
-@media screen and (max-width: 930px) {
-    .nav {
-        background-color: rgb(231, 173, 13);
-        color: rgb(15, 15, 1);
+
+@media screen and (max-width: 1230px) {
+    .nav-bar {
         align-items: center;
-        font-size: xx-large;
+        font-size: 1rem;
         display: flex;
+        justify-content: space-between;
+        width: 100%;
+
     }
 
-    #imagen {
-        border-radius: 2.6rem;
-        padding: .2rem .2rem 0 .2rem;
-        width: 2.45rem;
+    .video {
+        margin: 2rem 1rem 1rem 10rem;
+        align-items: center;
+        align-content: center;
+    }
+}
+
+/*MAX 930*/
+@media screen and (max-width: 1115px) {
+    .nav-bar {
+        align-items: center;
+        font-size: 1rem;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
     }
 
+    .video {
+        margin: 2rem 1rem 1rem 8rem;
+        align-items: center;
+        align-content: center;
+    }
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    .nav-bar {
+        align-items: center;
+        font-size: 1rem;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+    }
+
+    .video {
+        margin: 1rem 1rem 1rem 2rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+
+    }
+}
+
+@media screen and(max-width:830px) {
+    .iframe{
+        width: 100px;
+    }
+    .video {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+    .lista-carrusel {
+        display: flex;
+        gap: 3.5rem;
+        padding: 1rem;
+        overflow-x: auto;
+        scroll-snap-type: initial;
+        margin: 1rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        justify-items: center;
+    }
+
+    .gato-item img {
+        border-radius: 1rem;
+        height: 17rem;
+        width: 27rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+}
+
+/* @media (max-width: 768px) {
+    /* .nav-bar ul.nav-menu {
+        display: none; /* Oculta el menú 
+    }
+
+    /* Mostrar el icono de Material Symbols (ajustado a pantallas de 767px o menores) 
+    .span.material-symbols-outlined {
+        display: inline-block; /* Asegura que el icono sea visible 
+        justify-content: center; /* Centra el icono si está en un contenedor flex 
+        align-items: center; /* Alinea el icono verticalmente 
+        text-align: center; /* Centra el texto dentro del span si es necesario 
+    }
+/* }
+
+/* Media query para tamaños de pantalla más pequeños que 767px 
+@media (max-width: 767px) {
+    .span.material-symbols-outlined {
+        font-size: 2rem; /* Ajusta el tamaño del icono si es necesario 
+        /* Puedes agregar más estilos si lo deseas 
+    }
+} */ 
+
+@media screen and(max-width:530px) {
+    .nav-bar {
+    
+        align-items: center;
+        font-size: 1rem;
+        display: none;
+        justify-content: space-between;
+        width: 100%;
+
+    }
+
+    .video {
+        font-size: 100px;
+        width: 100px;
+        height: 50px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+    .lista-carrusel {
+        display: flex;
+        gap: 3.5rem;
+        padding: 1rem;
+        overflow-x: auto;
+        scroll-snap-type: initial;
+        margin: 1rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        justify-items: center;
+    }
+
+    .gato-item img {
+        border-radius: 1rem;
+        height: 17rem;
+        width: 27rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
 }
