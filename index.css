@@ -108,7 +108,9 @@ body {
     box-shadow: 0 0.2rem 0.8rem rgb (0, 0, 0, rgba(0, 255, 255, 0.219));
 }
 
-
+.video{
+    margin:2rem 15rem;
+}
 /*--------------------------------SECCION DE CARROUSEL---------------------------------------------------*/
 .datos-curiosos {
     padding: 1rem 1rem;
