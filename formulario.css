@@ -126,7 +126,7 @@ footer:hover {
     align-items: start;
     justify-content: center;
     align-content: center;
-    margin: 1.5rem 1.5rem;
+    margin: 1rem .5rem;
     border-radius: 1rem;
     border-color: var(--secundary-color);
     padding: .5rem .5rem 0 .5rem;
