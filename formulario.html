@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Se agrega un metadato para agregar el nombre del autor -->
+    <meta name="author" content="Diana Mariela">
+
+    <!-- Se agrega un link para establecer conexion con iconos de google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+    <!-- Se agrega un icono que aparecera al lado del titulo de la pagina -->
+    <link rel="icon" href="./images/Gio (2).ico" type="image/x-icon">
+    <title>Gatitos</title>
+
+    <!-- Se establece una conexión con CSS -->
+    <link rel="stylesheet" href="formulario.css">
+</head>
+
+<body>
+    <header>
+
+        <!-- Se agrega un navbar que es el mapa de navegación -->
+        <nav class="nav-bar">
+            <a href="./index.html" class="logo" aria-label="Logotipo de mi página"><img class="iconoLogotipo"
+                    src="./images/Gio (2).ico" alt="logotipo" width="100px">Los gatitos</a>
+            <ul class="nav-menu">
+                <li><a href="#"><span class="material-symbols-outlined">
+                            quick_reference_all
+                        </span> Para saber más</a></li>
+                <li><a href="#"><span class="material-symbols-outlined">
+                            lightbulb_2
+                        </span> Datos curiosos</a></li>
+                <li><a href="./formulario.css"><span class="material-symbols-outlined">
+                            perm_phone_msg
+                        </span> Adopta un gatito</a></li>
+                <li><a href="#"><span class="material-symbols-outlined">
+                            pin_drop
+                        </span> Sobre nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Se agrega etiqueta para dialogos -->
+    <div class="question">
+        <img class="question" src="./images/pregunta.jpg" alt="preguntame">
+        <p></p>
+    </div>
+
+    <!-- Se crea un apartado para una seccion que da introducción a un formulario -->
+
+    <fieldset class="contacto" id="contacto">
+        <img src="./images/abisinio.jpg" class="imagenFormulario" alt="imagenGato">
+        <!-- Inicia formulario -->
+        <form class="formulario">
+            <h2 class="contactanos">Contactanos</h2>
+            <p class="registro">Registra tus datos para ser parte de la familia Gatuna</p>
+            <label class="nombreUsuario" for="nombre">Nombre completo: </label>
+            <input class="espacioUsuario" type="text" id="nombre" placeholder="Introduce tu nombre completo"
+                required><br>
+            <label class="email" for="email">Correo electrónico:</label>
+            <input class="espacioEmail" type="email" id="email" placeholder="ejemplo@correo.com" required><br>
+            <label class="edad" for="nombre">Edad </label>
+            <select class="espacioEdad" id="asunto" required>
+                <option>Mayor a 40</option>
+                <option>30-40</option>
+                <option>20-30</option>
+                <option>20-15</option>
+            </select><br>
+            <label class="nacion"for="text">Nacionalidad</label>
+            <select class="espacioNacion" id="asunto" required>
+                <option>Mexicana (o)</option>
+                <option>Extranjera (o)</option>
+            </select><br>
+            <legend class="genero">Género</legend>
+            <!-- Se crea una seccion de radio botones -->
+            <label class="radioname" for="genero-masculino"> Masculino </label>
+            <input class="radio" type="radio" name="genero" id="genero-masculino">
+
+            <label class="radioname" for="genero-femenino">  Femenino </label>
+            <input class="radio" type="radio" name="genero" id="genero-femenino">
+
+            <label class="radioname" for="genero-otro">    Otro   </label>
+            <input class="radio" type="radio" name="genero" id="genero-otro"><br>
+            <!-- Se crea un cuadro de texto libre -->
+            <label class="mensaje" for="mensaje">¿Porque quieres formar parte de la familiar gatuna?</label><br>
+            <textarea class="espacioMensaje" id="mensaje" rows="15"  placeholder="Escribe tu respuesta aquí" required>
+                </textarea><br>
+            <button class="submit">Submit</button>
+    </fieldset>
+
+    <!-- Se agrega un footer -->
+    <footer>
+        <p>&copy; 2024 Gatitos. Todos los derechos reservados. Diana</p>
+    </footer>
+
+    <!-- Conexión con js -->
+    <script src="./script.js"></script>
+</body>
+<!-- 
+<template> – Se utiliza para almacenar contenido que no se muestra directamente en la página. Puede ser usado en JavaScript para crear dinámicamente elementos, lo que optimiza la carga del sitio. -->
+
+</html>
