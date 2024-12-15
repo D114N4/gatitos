@@ -40,7 +40,7 @@ footer:hover {
 }
 
 /*-----------------------------------------LOGOTIPO Y NAVBAR---------------------------------------------*/
- /*Logotipo Imagen*/
+/*Logotipo Imagen*/
 .iconoLogotipo {
     border-radius: 5rem;
     padding: .2rem .2rem 0 .1rem;
@@ -64,7 +64,7 @@ footer:hover {
 .material-symbols-outlined {
     font-size: 1.8rem;
     color: #f7f7f7;
-    
+
 }
 
 /* Palabra que acompaña al icono del menu*/
@@ -75,9 +75,9 @@ footer:hover {
     padding: 10px 20px;
     justify-content: space-between;
     position: fixed;
-    top:0;
+    top: 0;
     z-index: 100%;
-    width:100%;
+    width: 100%;
 }
 
 
@@ -97,14 +97,14 @@ footer:hover {
     align-items: center;
 }
 
-.material-symbols-outlined:hover{
-    color:#300110;
+.material-symbols-outlined:hover {
+    color: #300110;
 }
 
 
-.nav-menu li a:hover{
-    color:#300110;
-    text-decoration-line:underline;
+.nav-menu li a:hover {
+    color: #300110;
+    text-decoration-line: underline;
 }
 
 /*------------------------------------------PREGUNTA ALEATORIA--------------------------------*/
@@ -124,8 +124,8 @@ footer:hover {
 
 
 /*--------------------------------SECCION DE FORMULARIO---------------------------------------------------*/
-.contacto{
-    background-color:var(--background-body);
+.contacto {
+    background-color: var(--background-body);
     display: flex;
     align-items: start;
     justify-content: center;
@@ -136,183 +136,188 @@ footer:hover {
     padding: .5rem .5rem 0 .5rem;
 }
 
-.imagenFormulario{
+.imagenFormulario {
     width: 35rem;
     height: 40rem;
     margin: 0;
     border-radius: .9rem 0 0 .9rem;
-   
+
 }
 
-.contactanos{
-    background-color:#ce0078;
+.contactanos {
+    background-color: #ce0078;
     margin: .1rem .5rem 0.1rem .5rem;
     font-size: 2.5rem;
     font-family: Arial, Helvetica, sans-serif;
-    padding:1rem 15rem;
+    padding: 1rem 15rem;
     border-radius: 1.5rem;
 }
-.contactanos:hover{
+
+.contactanos:hover {
     background-color: aquamarine;
     transition: 0.2s;
     border-width: 0.15rem;
     color: #000000;
 }
 
-.registro{
-    background-color:#e05c04;
+.registro {
+    background-color: #e05c04;
     font-family: Arial, Helvetica, sans-serif;
     padding: 1rem 3rem;
     font-size: 1.5rem;
-    margin:0rem 1.5rem;
+    margin: 0rem 1.5rem;
     border-radius: 0 0 .5rem .5rem;
 }
 
-.registro:hover{
+.registro:hover {
     background-color: aquamarine;
     transition: 0.2s;
     border-width: 0.15rem;
     color: #000000;
 }
 
-.formulario{
-    background-color:var(--background-body);
+.formulario {
+    background-color: var(--background-body);
     text-align: start;
     margin: 0 0 0 1rem;
 }
 
-.nombreUsuario{
-    font-size:1.5rem;
+.nombreUsuario {
+    font-size: 1.5rem;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 3rem;
     color: #000000;
 }
 
-.espacioUsuario{
-    font-size:1.2rem;
+.espacioUsuario {
+    font-size: 1.2rem;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: .5rem;
-    width:22rem;
+    width: 22rem;
     text-align: center;
     line-height: 1.2rem;
 }
 
-.espacioUsuario:hover{
+.espacioUsuario:hover {
     border-color: var(--secundary-color);
     transition: 0.2s;
     border-width: 0.15rem;
 }
 
-.email{
-    font-size:1.5rem;
+.email {
+    font-size: 1.5rem;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 3rem;
     color: #000000;
 }
 
-.espacioEmail{
-    font-size:1.2rem;
+.espacioEmail {
+    font-size: 1.2rem;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: .5rem;
-    width:22rem;
+    width: 22rem;
     text-align: center;
-    
+
 }
-.espacioEmail:hover{
+
+.espacioEmail:hover {
     border-color: var(--secundary-color);
     transition: 0.2s;
     border-width: 0.15rem;
 }
 
-.edad{
-    font-size:1.5rem;
+.edad {
+    font-size: 1.5rem;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 3rem;
     color: #000000;
 }
 
-.espacioEdad{
-    font-size:1.2rem;
+.espacioEdad {
+    font-size: 1.2rem;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: .5rem;
-    width:8rem;
-    text-align: center;
-    line-height: 1.2rem;
-
-}
-.espacioEdad:hover{
-    border-color: var(--secundary-color);
-    transition: 0.2s;
-    border-width: 0.15rem;
-}
-
-.nacion{
-    font-size:1.5rem;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 3rem;
-    color: #000000;
-}
-
-.espacioNacion{
-    font-size:1.2rem;
-    font-family: Arial, Helvetica, sans-serif;
-    border-radius: .5rem;
-    width:10rem;
+    width: 8rem;
     text-align: center;
     line-height: 1.2rem;
+
 }
-.espacioNacion:hover{
+
+.espacioEdad:hover {
     border-color: var(--secundary-color);
     transition: 0.2s;
     border-width: 0.15rem;
 }
 
-.genero{
-    font-size:1.5rem;
+.nacion {
+    font-size: 1.5rem;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 3rem;
     color: #000000;
 }
 
-.radioname{
-    font-size:1.3rem;
+.espacioNacion {
+    font-size: 1.2rem;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: .5rem;
-    width:22rem;
+    width: 10rem;
+    text-align: center;
+    line-height: 1.2rem;
+}
+
+.espacioNacion:hover {
+    border-color: var(--secundary-color);
+    transition: 0.2s;
+    border-width: 0.15rem;
+}
+
+.genero {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 3rem;
+    color: #000000;
+}
+
+.radioname {
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: .5rem;
+    width: 22rem;
     text-align: center;
     line-height: 1.2rem;
     color: #000000;
 }
 
-.radioname:hover{
+.radioname:hover {
     border-color: var(--secundary-color);
     transition: 0.2s;
     border-width: 0.15rem;
 }
-.mensaje{
-    font-size:1.5rem;
+
+.mensaje {
+    font-size: 1.5rem;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 3rem;
     color: #000000;
 }
 
-.espacioMensaje{
-    font-size:1.2rem;
+.espacioMensaje {
+    font-size: 1.2rem;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: .5rem;
-    width:38rem;
+    width: 38rem;
     height: 10rem;
     text-align: center;
     line-height: 1.2rem;
 }
 
-.espacioMensaje:hover{
+.espacioMensaje:hover {
     border-color: var(--secundary-color);
     transition: 0.2s;
     border-width: 0.15rem;
 }
 
-.submit{
+.submit {
     width: 10rem;
     padding: 0.5rem;
     margin: .5rem 10rem;
@@ -321,10 +326,10 @@ footer:hover {
     font-size: 1rem;
     border-color: var(--secundary-color);
     background-color: var(--primary-color);
-    color: #ce0078;   
+    color: #ce0078;
 }
 
-.submit:hover{
+.submit:hover {
     background-color: #e05c04;
     color: white;
     border-color: rgb(129, 129, 9);
@@ -332,15 +337,558 @@ footer:hover {
 
 /* -----------------------------------------FOOTER--------------------------------------------------- */
 
-footer{
+footer {
     background-color: var(--secundary-color);
     color: var(--primary-color);
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
+    width: 100%;
 }
 
-footer:hover{
+footer:hover {
     background-color: aqua;
     color: #000000;
+}
+
+/*---------------------------------------------------------MEDIAQUERIES-----------------------------------------*/
+
+
+@media screen and (max-width: 1000px) {
+    .nav-bar {
+        align-items: center;
+        font-size: 1rem;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .fielset {
+        width: 100%;
+    }
+
+    .formulario {
+        width: 100%;
+        max-width: 90%;
+    }
+
+    .contacto {
+        background-color: var(--background-body);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: start;
+        justify-content: center;
+        align-content: center;
+        margin: 1rem .5rem;
+        border-radius: 1rem;
+        border-color: var(--secundary-color);
+        padding: .5rem .5rem 0 .5rem;
+    }
+
+    .imagenFormulario {
+        width: 30rem;
+        height: 30rem;
+        margin: 0;
+        border-radius: .9rem 0 0 .9rem;
+    }
+
+    .contactanos {
+        background-color: #ce0078;
+        margin: .1rem .5rem 0.1rem .5rem;
+        font-size: 2.5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 1rem 3rem;
+        border-radius: 1.5rem;
+    }
+
+    .espacioMensaje {
+        font-size: 1.2rem;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: .5rem;
+        width: 30rem;
+        height: 10rem;
+        text-align: center;
+        line-height: 1.2rem;
+    }
+}
+
+/*MAX 930*/
+@media screen and (max-width: 930px) {
+    .nav-bar {
+        align-items: center;
+        font-size: 1rem;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .fielset {
+        width: 100%;
+    }
+
+    .formulario {
+        width: 100%;
+        max-width: 90%;
+    }
+
+    .contacto {
+        background-color: var(--background-body);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: start;
+        justify-content: center;
+        align-content: center;
+        margin: 1rem .5rem;
+        border-radius: 1rem;
+        border-color: var(--secundary-color);
+        padding: .5rem .5rem 0 .5rem;
+    }
+
+    .imagenFormulario {
+        width: 20rem;
+        height: 30rem;
+        margin: 0;
+        border-radius: .9rem 0 0 .9rem;
+    }
+
+    .contactanos {
+        background-color: #ce0078;
+        margin: .1rem .5rem 0.1rem .5rem;
+        font-size: 2rem;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 1rem 2rem;
+        border-radius: 1.5rem;
+    }
+
+    .espacioMensaje {
+        font-size: 1.2rem;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: .5rem;
+        width: 20rem;
+        height: 10rem;
+        text-align: center;
+        line-height: 1.2rem;
+    }
+
+    .footer {
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (max-width: 830px) {
+    .nav-bar {
+        align-items: center;
+        font-size: .975rem;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        gap: 1rem;
+
+    }
+
+    .footer {
+        text-align: center;
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (max-width: 650px) {
+    .nav-bar {
+        align-items: center;
+        font-size: .7rem;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 750px;
+        gap: 1rem;
+    }
+
+    .imagen {
+        width: 3.5rem;
+        margin: 0rem 1rem;
+    }
+
+    .registro {
+        background-color: #e05c04;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 1rem 2rem;
+        font-size: 1.5rem;
+        margin: 0rem 1.5rem;
+        border-radius: 0 0 .5rem .5rem;
+    }
+
+
+    .formulario {
+        background-color: var(--background-body);
+        text-align: start;
+        margin: 0 0 0 1rem;
+    }
+
+    .nombreUsuario {
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1rem;
+    }
+
+    .Usuario {
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: .5rem;
+        width: 18rem;
+        text-align: center;
+        line-height: 1rem;
+    }
+
+
+    .email {
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1rem;
+        color: #000000;
+    }
+
+    .espacioEmail {
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: .5rem;
+        width: 18rem;
+        text-align: center;
+
+    }
+
+    .edad {
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1rem;
+    }
+
+    .espacioEdad {
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: .5rem;
+        width: 6rem;
+        text-align: center;
+        line-height: 1rem;
+
+    }
+
+    .nacion {
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1rem;
+    }
+
+    .espacioNacion {
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: .5rem;
+        width: 10rem;
+        text-align: center;
+        line-height: 1rem;
+    }
+
+    .genero {
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1rem;
+    }
+
+    .radioname {
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: .5rem;
+        width: 22rem;
+        text-align: center;
+        line-height: .5rem;
+    }
+
+
+    .mensaje {
+        font-size: .5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: .5rem;
+    }
+
+    .submit {
+        width: 8rem;
+        padding: 0.5rem;
+        margin: .5rem 4rem;
+        border-radius: 1rem;
+        font-size: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 730px) {
+    .nav-bar {
+        align-items: center;
+        font-size: .9rem;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        gap: 1rem;
+
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    .nav-bar {
+        align-items: center;
+        font-size: .6rem;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        gap: .2rem;
+    }
+
+    .imagenFormulario{
+        display: none;
+    }
+
+    .imagen {
+        width: 3.5rem;
+        margin: 0rem 1rem;
+    }
+
+    .registro {
+        background-color: #e05c04;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 1rem 3rem;
+        font-size: 1.5rem;
+        margin: 0rem 1.5rem;
+        border-radius: 0 0 .5rem .5rem;
+    }
+
+
+    .formulario {
+        background-color: var(--background-body);
+        text-align: start;
+        margin: 0 0 0 1rem;
+    }
+
+    .nombreUsuario {
+        font-size: 1.5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 3rem;
+        color: #000000;
+    }
+
+    .espacioUsuario {
+        font-size: 1.2rem;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: .5rem;
+        width: 22rem;
+        text-align: center;
+        line-height: 1.2rem;
+    }
+
+
+    .email {
+        font-size: 1.5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 3rem;
+        color: #000000;
+    }
+
+    .espacioEmail {
+        font-size: 1.2rem;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: .5rem;
+        width: 22rem;
+        text-align: center;
+
+    }
+
+    .edad {
+        font-size: 1.5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 3rem;
+        color: #000000;
+    }
+
+    .espacioEdad {
+        font-size: 1.2rem;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: .5rem;
+        width: 8rem;
+        text-align: center;
+        line-height: 1.2rem;
+
+    }
+
+    .nacion {
+        font-size: 1.5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 3rem;
+        color: #000000;
+    }
+
+    .espacioNacion {
+        font-size: 1.2rem;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: .5rem;
+        width: 10rem;
+        text-align: center;
+        line-height: 1.2rem;
+    }
+
+    .genero {
+        font-size: 1.5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 3rem;
+        color: #000000;
+    }
+
+    .radioname {
+        font-size: 1.3rem;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: .5rem;
+        width: 22rem;
+        text-align: center;
+        line-height: 1.2rem;
+        color: #000000;
+    }
+
+
+    .mensaje {
+        font-size: .5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 3rem;
+        color: #000000;
+    }
+
+    .submit {
+        width: 10rem;
+        padding: 0.5rem;
+        margin: .5rem 10rem;
+        border-radius: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+        border-color: var(--secundary-color);
+        background-color: var(--primary-color);
+        color: #ce0078;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .nav-bar {
+        align-items: center;
+        font-size: .5rem;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        gap: .2rem;
+    }
+    .imagenFormulario{
+        display: none;
+    }
+
+    .contactanos {
+        font-size: 1.5;
+        width: 3rem 8rem;
+    }
+
+    .registro {
+        font-size: 1.5;
+        width: 3rem 8rem;
+
+    }
+    .formulario{
+        padding: 1rem 0rem;
+        margin: 0 1rem;
+        text-align: center;
+        
+    }
+
+    .mensaje {
+        font-size: .5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1rem;
+        color: #000000;
+    }
+
+    .genero {
+        font-size: .5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1rem;
+        color: #000000;
+    }
+
+    .radioname {
+        font-size: .5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1rem;
+        color: #000000;
+    }
+
+    .email {
+        font-size: .5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1rem;
+        color: #000000;
+    }
+
+    .espacioEmail {
+        font-size: .5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1rem;
+        color: #000000;
+        width: 16rem;
+        height: 1.2rem;
+    }
+
+    .nombreUsuario {
+        font-size: .5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1rem;
+        color: #000000;
+    }
+
+    .espacioUsuario {
+        font-size: .5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1rem;
+        color: #000000;
+        width: 16rem;
+        height: 1.2rem;
+    }
+
+    .edad {
+        font-size: .5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1rem;
+        color: #000000;
+    }
+
+    .espacioEdad {
+        font-size: .5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1rem;
+        color: #000000;
+        width: 8rem;
+        margin: 0rem 5rem;
+        height: 1.2rem;
+    }
+
+    .nacion {
+        font-size: .5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1rem;
+        color: #000000;
+    }
+
+    .espacioNacion {
+        font-size: .5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: .5rem;
+        color: #000000;
+        width: 16rem;
+        height: 1.2rem;
+    }
 }
