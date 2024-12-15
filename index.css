@@ -114,7 +114,9 @@ body {
 }
 
 .video {
-    margin: 2rem 15rem;
+    margin: 2rem 2rem;
+    justify-content: center;
+    width: 75rem;
 }
 
 /*--------------------------------SECCION DE CARROUSEL---------------------------------------------------*/
@@ -154,7 +156,9 @@ h2:hover {
 }
 
 .lista-carrusel {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: auto;
     gap: 1rem;
     padding: 1rem;
     overflow-x: auto;
@@ -184,7 +188,9 @@ h2:hover {
     background-color: #011d1767;
     width: 27rem;
     height: 17rem;
-    display: flex;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr;
     justify-content: center;
     align-items: center;
     border-radius: 0.9rem;
@@ -226,7 +232,7 @@ footer:hover {
 /*---------------------------------------------------------MEDIAQUERIES-----------------------------------------*/
 
 
-@media screen and (max-width: 1230px) {
+@media screen and (max-width: 1000px) {
     .nav-bar {
         align-items: center;
         font-size: 1rem;
@@ -240,11 +246,12 @@ footer:hover {
         margin: 2rem 1rem 1rem 10rem;
         align-items: center;
         align-content: center;
+        width: 800px;
     }
 }
 
 /*MAX 930*/
-@media screen and (max-width: 1115px) {
+@media screen and (max-width: 850px) {
     .nav-bar {
         align-items: center;
         font-size: 1rem;
@@ -255,49 +262,41 @@ footer:hover {
     }
 
     .video {
-        margin: 2rem 1rem 1rem 8rem;
+        margin: 1rem;
         align-items: center;
         align-content: center;
+        width: 100%;
+        max-width: 700px;
     }
 }
 
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 730px) {
     .nav-bar {
         align-items: center;
-        font-size: 1rem;
+        font-size: .975rem;
         display: flex;
         justify-content: space-between;
         width: 100%;
+        max-width: 750px;
+        gap: 1rem;
 
     }
 
     .video {
         margin: 1rem 1rem 1rem 2rem;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
+        width: 100%;
+        max-width: 600px;
+        align-items: center;
+        align-content: center;
 
-    }
-}
-
-@media screen and(max-width:830px) {
-    .iframe{
-        width: 100px;
-    }
-    .video {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
     }
 
     .lista-carrusel {
         display: flex;
         gap: 3.5rem;
         padding: 1rem;
-        overflow-x: auto;
-        scroll-snap-type: initial;
         margin: 1rem;
         display: grid;
         grid-template-columns: 1fr;
@@ -313,56 +312,34 @@ footer:hover {
         grid-template-columns: 1fr;
         grid-template-rows: auto;
     }
+
 }
 
-/* @media (max-width: 768px) {
-    /* .nav-bar ul.nav-menu {
-        display: none; /* Oculta el menú 
-    }
-
-    /* Mostrar el icono de Material Symbols (ajustado a pantallas de 767px o menores) 
-    .span.material-symbols-outlined {
-        display: inline-block; /* Asegura que el icono sea visible 
-        justify-content: center; /* Centra el icono si está en un contenedor flex 
-        align-items: center; /* Alinea el icono verticalmente 
-        text-align: center; /* Centra el texto dentro del span si es necesario 
-    }
-/* }
-
-/* Media query para tamaños de pantalla más pequeños que 767px 
-@media (max-width: 767px) {
-    .span.material-symbols-outlined {
-        font-size: 2rem; /* Ajusta el tamaño del icono si es necesario 
-        /* Puedes agregar más estilos si lo deseas 
-    }
-} */ 
-
-@media screen and(max-width:530px) {
+@media screen and (max-width: 650px) {
     .nav-bar {
-    
         align-items: center;
-        font-size: 1rem;
-        display: none;
+        font-size: .7rem;
+        display: flex;
         justify-content: space-between;
         width: 100%;
+        max-width: 750px;
+        gap: 1rem;
 
     }
 
     .video {
-        font-size: 100px;
-        width: 100px;
-        height: 50px;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
+        margin: 1rem 1rem 1rem 2rem;
+        width: 100%;
+        max-width: 500px;
+        align-items: center;
+        align-content: center;
+
     }
 
     .lista-carrusel {
         display: flex;
         gap: 3.5rem;
         padding: 1rem;
-        overflow-x: auto;
-        scroll-snap-type: initial;
         margin: 1rem;
         display: grid;
         grid-template-columns: 1fr;
@@ -378,4 +355,86 @@ footer:hover {
         grid-template-columns: 1fr;
         grid-template-rows: auto;
     }
+
+}
+
+@media screen and (max-width: 530px) {
+    .nav-bar {
+        align-items: center;
+        font-size: .7rem;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        max-width: 750px;
+        gap: 1rem;
+
+    }
+
+    .video {
+        margin: 1rem 1rem 1rem 2rem;
+        width: 100%;
+        max-width: 400px;
+        align-items: center;
+        align-content: center;
+
+    }
+
+    .lista-carrusel {
+        display: flex;
+        gap: 3.5rem;
+        padding: 1rem;
+        margin: 1rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        justify-items: center;
+    }
+
+    .gato-item img {
+        border-radius: 1rem;
+        height: 17rem;
+        width: 27rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+    /*Logotipo Imagen*/
+    .iconoLogotipo {
+        border-radius: 5rem;
+        padding: .2rem .2rem 0 .1rem;
+        width: 2rem;
+
+    }
+
+    /*Logotipo Texto*/
+    .logo {
+        font-size: 1.2rem;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--primary-color);
+        transition: .3s;
+        padding: 0 1rem;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+
+    /*Menu*/
+    .material-symbols-outlined {
+        display: block;
+        font-size: 1rem;
+        color: #f7f7f7;
+
+    }
+
+    .nav-menu li a {
+        text-decoration: none;
+        color: var(--color-texto);
+        font-weight: bold;
+        transition: color 0.4s;
+        display: flex;
+        align-items: baseline;
+    }
+
 }
