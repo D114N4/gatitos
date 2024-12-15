@@ -18,7 +18,7 @@ body {
     background-color: var(--background-body);
     color: var(--primary-color);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-top:5rem;
+    margin-top: 5rem;
     line-height: 1.2rem;
 }
 
@@ -40,7 +40,7 @@ footer:hover {
 }
 
 /*-----------------------------------------LOGOTIPO Y NAVBAR---------------------------------------------*/
- /*Logotipo Imagen*/
+/*Logotipo Imagen*/
 .iconoLogotipo {
     border-radius: 5rem;
     padding: .2rem .2rem 0 .1rem;
@@ -64,7 +64,7 @@ footer:hover {
 .material-symbols-outlined {
     font-size: 1.8rem;
     color: #f7f7f7;
-    
+
 }
 
 /* Palabra que acompaña al icono del menu*/
@@ -75,9 +75,9 @@ footer:hover {
     padding: 10px 20px;
     justify-content: space-between;
     position: fixed;
-    top:0;
+    top: 0;
     z-index: 100%;
-    width:100%;
+    width: 100%;
 }
 
 
@@ -97,14 +97,14 @@ footer:hover {
     align-items: center;
 }
 
-.material-symbols-outlined:hover{
-    color:#300110;
+.material-symbols-outlined:hover {
+    color: #300110;
 }
 
 
-.nav-menu li a:hover{
-    color:#300110;
-    text-decoration-line:underline;
+.nav-menu li a:hover {
+    color: #300110;
+    text-decoration-line: underline;
 }
 
 /*------------------------------------------PREGUNTA ALEATORIA--------------------------------*/
@@ -130,13 +130,13 @@ footer:hover {
     font-size: 3.5rem;
     margin: 1rem;
     line-height: 3.5rem;
-    padding:1rem 1rem;
-    text-shadow: 
-    -1px -1px 0px black,  
-    1px -1px 0px black,  
-    -1px 1px 0px black,  
-    1px 1px 0px black;
-    
+    padding: 1rem 1rem;
+    text-shadow:
+        -1px -1px 0px black,
+        1px -1px 0px black,
+        -1px 1px 0px black,
+        1px 1px 0px black;
+
 }
 
 .titulo2:hover {
@@ -145,26 +145,26 @@ footer:hover {
 }
 
 
-  aside {
+aside {
     display: grid;
     grid-template-columns: 30rem auto;
     grid-template-rows: auto;
     line-height: 1.5rem;
-    background-color:var(--primary-color); 
-    padding: 1rem; 
+    background-color: var(--primary-color);
+    padding: 1rem;
     text-align: justify;
     color: #000000;
-  }
-  
-  div {
-    background-color: var(--primary-color); 
+}
+
+div {
+    background-color: var(--primary-color);
     padding: 3rem;
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
     line-height: 1.5rem;
     border-radius: 5rem 0 0 5rem;
-  }
+}
 
 .razas {
     background-color: #ce007879;
@@ -217,12 +217,12 @@ footer:hover {
 }
 
 .gatos-item img:hover {
-    width: 10.5rem;
-    height: 10.5rem;
+    width: 10.1rem;
+    height: 10.1rem;
 }
 
 .nombre {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
     color: black;
     text-align: center;
@@ -236,7 +236,7 @@ footer:hover {
 
 
 /*------------------------------------------FOOTER---------------------------------------------------*/
-footer{
+footer {
     background-color: var(--secundary-color);
     color: var(--primary-color);
     text-align: center;
@@ -244,7 +244,303 @@ footer{
     font-size: 1.5rem;
 }
 
-footer:hover{
+footer:hover {
     background-color: aqua;
     color: #000000;
+}
+
+
+
+/*---------------------------------------------------------MEDIAQUERIES-----------------------------------------*/
+
+
+@media screen and (max-width: 1000px) {
+    .nav-bar {
+        align-items: center;
+        font-size: 1rem;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    aside {
+        display: grid;
+        grid-template-columns: 20rem auto;
+        grid-template-rows: auto;
+        line-height: 1.5rem;
+        background-color: var(--primary-color);
+        padding: 1rem;
+        text-align: justify;
+        color: #000000;
+    }
+}
+
+/*MAX 930*/
+@media screen and (max-width: 880px) {
+    .nav-bar {
+        align-items: center;
+        font-size: 1rem;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+    }
+
+    aside {
+        display: grid;
+        grid-template-columns: 15rem auto;
+        grid-template-rows: auto;
+        line-height: 1.5rem;
+        background-color: var(--primary-color);
+        padding: 1rem;
+        text-align: justify;
+        color: #000000;
+    }
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .nav-bar {
+        align-items: center;
+        font-size: .975rem;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        gap: 1rem;
+
+    }
+
+    aside {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        background-color: var(--primary-color);
+        padding: 1rem;
+        text-align: justify;
+        color: #000000;
+    }
+
+    .razas-contenido {
+        background-color: var(--primary-color);
+        padding: 0rem;
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+        line-height: 1rem;
+        border-radius: 5rem 0 0 5rem;
+    }
+
+    p.subtitulo {
+        font-size: 1rem;
+        margin: 0.5rem 0rem;
+        padding: 0.5rem 0rem;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+    .nav-bar {
+        align-items: center;
+        font-size: .7rem;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 750px;
+        gap: 1rem;
+
+    }
+
+    .video {
+        margin: 1rem 1rem 1rem 2rem;
+        width: 100%;
+        max-width: 500px;
+        align-items: center;
+        align-content: center;
+
+    }
+
+    .lista-carrusel {
+        display: flex;
+        gap: 3.5rem;
+        padding: 1rem;
+        margin: 1rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        justify-items: center;
+    }
+
+    .gato-item img {
+        border-radius: 1rem;
+        height: 17rem;
+        width: 27rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+}
+
+@media screen and (max-width: 530px) {
+    .nav-bar {
+        align-items: center;
+        font-size: .7rem;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        max-width: 750px;
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 605px) {
+    .nav-bar {
+        align-items: center;
+        font-size: .5rem;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        max-width: 750px;
+        gap: 1rem;
+    }
+    /*Logotipo Imagen*/
+    .iconoLogotipo {
+        border-radius: 5rem;
+        padding: .2rem .2rem 0 .1rem;
+        width: 2rem;
+
+    }
+
+    /*Logotipo Texto*/
+    .logo {
+        font-size: 1.2rem;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--primary-color);
+        transition: .3s;
+        padding: 0 1rem;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+
+    /*Menu*/
+    .material-symbols-outlined {
+        display: block;
+        font-size: 1rem;
+        color: #f7f7f7;
+
+    }
+
+    .nav-menu li a {
+        text-decoration: none;
+        color: var(--color-texto);
+        font-weight: bold;
+        transition: color 0.4s;
+        display: flex;
+        align-items: baseline;
+    }
+}
+
+@media screen and (max-width: 705px) {
+    .nav-bar {
+        align-items: center;
+        font-size: .9rem;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        gap: 1rem;
+
+    }
+
+    aside {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        background-color: var(--primary-color);
+        padding: 1rem;
+        text-align: justify;
+        color: #000000;
+    }
+
+    .razas-contenido {
+        background-color: var(--primary-color);
+        padding: 0rem;
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+        line-height: 1rem;
+        border-radius: 5rem 0 0 5rem;
+    }
+
+    p.subtitulo {
+        font-size: 1rem;
+        margin: 0.5rem 0rem;
+        padding: 0.5rem 0rem;
+    }
+
+    .raza-lista {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        text-align: center;
+        border-radius: 0rem 5rem 5rem 0;
+    }
+
+
+}
+
+@media screen and (max-width: 430px) {
+    .nav-bar {
+        align-items: center;
+        font-size: .6rem;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        gap: .2rem;
+
+    }
+
+    aside {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        background-color: var(--primary-color);
+        padding: 1rem;
+        text-align: justify;
+        color: #000000;
+    }
+
+    .razas-contenido {
+        background-color: var(--primary-color);
+        padding: 0rem;
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: .5rem;
+        line-height: 1rem;
+        border-radius: 5rem 0 0 5rem;
+    }
+
+    p.subtitulo {
+        font-size: .8rem;
+        margin: 0.5rem 0rem;
+        padding: 0.5rem 0rem;
+    }
+
+    .raza-lista {
+        display: grid;
+        justify-content: end;
+        align-content: end;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        text-align: center;
+        border-radius: 0rem 5rem 5rem 0;
+    }
 }
